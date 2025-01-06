@@ -2,19 +2,42 @@
 void setup() {
     size(400, 400); 
     background(255,255,255,100);
-}
+//}
 
 
 //🟢Draw Procedure - Runs on Repeat
-void draw(){
+//void draw(){
   fill(255,255,255);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
-
-  
-
+  //head
+  fill(0,0,0)
+ellipse(200,150,100,79)
+//ears
+fill(0,0,0)
+strokeWeight(1)
+triangle(160,96,189,137,147,141)
+triangle(229,90,251,145,215,142)
+//eyes
+fill(255,204,0)
+ellipse(171,143,20,20)
+ellipse(220,143,20,20)
+//pupils
+strokeWeight(10);
+point(171,142)
+point(221,143)
+//nose
+strokeWeight(13)
+fill(252, 158, 151)
+ellipse(196,158,20,20)
+//whiskers
+strokeWeight(1)
+fill(255,255,255)
+line(126,154,178,166)
+line(133,177,171,165)
+line(273,152,236,157)
+line(261,174,230,165)
 }
 
 //🟡Extra FUN Features Ms. Hall Added
